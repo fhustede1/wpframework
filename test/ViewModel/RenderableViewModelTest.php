@@ -24,6 +24,8 @@ class RenderableViewModelTest extends TestCase
 
         $this->assertIsArray($fields);
         $this->assertArrayHasKey("classes", $fields);
+        $this->assertArrayHasKey("lorem", $fields);
+        $this->assertEquals("ipsum", $fields["lorem"]);
         $this->assertEquals(["init-class"], $fields["classes"]);
     }
 }
