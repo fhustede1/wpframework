@@ -3,6 +3,7 @@
     "description": "a new wordpress framework to create MVP-similar, professional templates. will be used alongside something like lumberjack before becoming a full-blown framework.",
     "type": "library",
     "license": "UNLICENSED",
+    "version": "1.0",
     "autoload": {
         "psr-4": {
             "WeltenretterDev\\WPFramework\\": "app/"
